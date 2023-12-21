@@ -1,0 +1,203 @@
+body{ margin:0;
+    padding:0;
+    }
+    
+    /*Navbar*/
+    
+    ul{
+      list-style-type:none;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+      background-color:#FCF5E7;
+      position: fixed;
+      display:flex;
+      justify-content:flex-end;
+      width:100%;
+      top:0;
+      
+      
+    }
+    
+    #navbar{
+      overflow: hidden;
+      background-color: #333;
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%; /* Full width */
+    }
+    }
+    li{
+      float:left;
+    }
+    
+    li a{
+    display:block;
+    color:#9B4819;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration:none;
+    }
+    
+    li a:hover{
+      background-color:#9B4819;
+      color:#FCF5E7;
+      cursor: pointer;
+    }
+    
+    /*About*/
+    #welcome-section{
+      background:#9B4819;
+      margin:0;
+      padding:10rem 2rem;
+      display:flex;
+      flex-direction:column;
+      text-align:center;
+    
+    }
+    
+    .tittle{
+     /*I need to align hello and name*/ 
+     font-size:86px;
+     font-family:radley;
+     display:inline-block;
+     text-align:center;
+     margin:0;
+     padding:0;
+    
+    }
+    #name{
+      color:#FCF5E7;
+    }
+    #hello{
+      font-style:italic;
+    }
+    
+    #role{
+      font-family:carlito;
+      font-size:23px;
+      display: block; 
+      margin:0;
+    
+    }
+    /*Projects*/
+    
+    @media (max-width: 30.625em)
+    .projects-section {
+        padding: 6rem 1rem;
+    }
+    
+    #projects{
+      background-color:#FCF5E7;
+      padding:10rem 2rem;
+      text-align:center;
+      font-family:radley;
+      color:#9B4819;
+    }
+    /*Align all the projects*/
+    .projects_grid{
+    display:grid;  
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding:20px;
+    place-items:center;
+    max-width: 1200px;
+    margin:auto;
+    }
+    
+    .project-tile{
+      height:525px;
+      width:100%;
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      background-color:#9B4819;
+      border-radius:7px;
+      /*box-shadow: 8px 8px 10px 5px;*/
+     text-decoration:none;
+    color:#FCF5E7;
+    transition:background-color 0.5s ease-in;
+    }
+    
+    .project-img{
+      height:100%;
+      width:100%; 
+      object-fit:cover;
+    border-radius:7px 0px 7px 0px;}
+      
+    .project-title{
+      font-size:20px;
+    }
+    
+    .project-tile:hover
+    {
+    background-color: #FCF5E7;
+    border:0.5px;
+    border-style:solid;
+    border-color: #9B4819;
+    font-color:#9B4819;
+    color:#9B4819;
+    }
+    .show-all{
+      text-decoration:none;
+      width:max-content;
+    top:0;
+      align-items:center;
+      background-color:#9B4819;
+      margin:auto;
+      color:#FCF5E7;
+      font-size:15px;
+      padding:0.5rem;border-radius:7px;
+    font-style:carlito;
+    cursor:pointer;
+    transition:background-color 0.5s ease-in;
+    }
+    
+    .show-all:hover{
+      background-color: #FCF5E7;
+    border:0.5px;
+    border-style:solid;
+    border-color: #9B4819;
+    font-color:#9B4819;
+    color:#9B4819;
+    }
+    
+    /*Contact*/
+    
+    #contact{
+      padding:10rem 2rem;
+      background-color:#9B4819;}
+    
+    #contact h1{
+      font-size:50px;
+      color:#FCF5E7;
+      font-style:carlito;
+      margin-top:300px;
+    }
+    .contact-header p{
+      font-family:carlito;
+      font-size:23px;
+    }
+    #contact .social-icons{
+      margin:auto;
+      margin-top:30px;
+      display:flex;
+      flex-wrap:wraps;
+      max-width:1000px;
+    justify-content:space-around;
+    }
+    #contact .social-media{
+      display:flex;
+      align-items:center;
+      margin:20px;
+      font-size:22px;
+    }
+    
+    footer{
+      border-top:3px solid #FCF5E7;
+      font-size:15px;
+      padding:px;
+      font-family:radley;
+      padding: 30px;
+    
+    }
