@@ -1,2 +1,2 @@
 # Porfolio--Draft
-This is Draft 1 of my porfolio
+This is my first portfolio. hardcode with HTML and CSS.
